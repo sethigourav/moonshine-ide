@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<flex version="4.15.0"/>
+	<flexJS version="0.6.0"/>
+	<air version="22.0"/>
+	<Ant>
+		<windows>
+			<version version="1.9.7" displayVersion="1.9.7">
+                <path>http://mirror.fibergrid.in/apache//ant/binaries/</path>
+                <file>apache-ant-1.9.7-bin.zip</file>
+            </version>
+		</windows>
+		<mac>
+			<version version="1.9.7" displayVersion="1.9.7">
+                <path>http://mirror.fibergrid.in/apache//ant/binaries/</path> <!-- http://moonshine-ide.com/wp-content/uploads/ -->
+                <file>apache-ant-1.9.7-bin.tar.gz</file> <!-- flexSDK.tar.gz -->
+            </version>
+		</mac>
+	</Ant>
+</config>

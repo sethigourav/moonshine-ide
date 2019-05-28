@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<update xmlns="http://ns.riaspace.com/air/framework/update/description/1.1">
+
+        <!-- Mac update -->
+        <dmg>
+                <version>2.2.0</version>
+                <url>http://moonshine-ide.com/downloads/releases/macos/Moonshine-2.2.0.pkg</url>
+            <description>
+            <![CDATA[
+                * This a Mac update
+                ]]>
+        </description>
+        </dmg>
+        
+        <!-- Win update -->
+        <exe>
+                <version>2.2.0</version>
+                <url>http://moonshine-ide.com/downloads/releases/windows/Moonshine-2.2.0.exe</url>
+            <description>
+            <![CDATA[
+                * This a Win update
+                ]]>
+        </description>
+        </exe>
+
+        <!-- Debian update
+        <deb>
+                <version>1.0.1</version>
+                <url>https://yoursecurehost.com/download/YourApplication.deb</url>
+            <description>
+            <![CDATA[
+                * This a Debian update
+                ]]>
+        </description>
+        </deb>
+
+         Redhat/Fedora/OpenSUSE update 
+        <rpm>
+                <version>1.0.1</version>
+                <url>https://yoursecurehost.com/download/YourApplication.rpm</url>
+            <description>
+            <![CDATA[
+                * This a Redhat/Fedora/OpenSUSE update
+                ]]>
+        </description>
+        </rpm>
+        -->
+</update>

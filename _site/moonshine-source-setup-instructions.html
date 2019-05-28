@@ -1,0 +1,132 @@
+<p>[vc_row][vc_column][vc_column_text el_class=”text-size-18″]<strong>Before proceeding you are expected to have:</strong></p>
+
+<ol>
+  <li>
+    <p>Following setup instructions demonstrated with Moonshine IDE ™, users may use other IDE to setup also</p>
+  </li>
+  <li>
+    <p>To setup Moonshine IDE ™ please download and install <a href="https://github.com/prominic/Moonshine-IDE/releases/latest">latest IDE release</a></p>
+  </li>
+  <li>
+    <p>Clone or download Moonshine source code from GitHub: <a href="https://github.com/prominic/Moonshine-IDE">Moonshine-IDE</a></p>
+  </li>
+</ol>
+
+<table>
+  <tbody>
+    <tr>
+      <td>4. You can able to download necessary Apache Flex<sup>®</sup> SDKs in intermediate steps (i.e. through in-built SDK downloader in Windows and through App Store Helper in MacOS)[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_custom_heading text=”Moonshine development requisites” font_container=”tag:h3</td>
+      <td>text_align:left” use_theme_fonts=”yes”][vc_column_text]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>AIR SDK 20+ (present development usage – <a href="https://flex.apache.org/installer.html">Apache 4.16.1</a> with <a href="https://helpx.adobe.com/flash-player/release-note/fp_28_air_28_release_notes.html">Adobe AIR 28.0</a>). Note: edit <strong>MoonshineDESKTOP-app.xml</strong> (<em>MoonshineDESKTOPevolved/src/MoonshineDESKTOP-app.xml</em>) application version per your AIR SDK version:<br />
+&lt;application xmlns=”<a class="external-link" href="http://ns.adobe.com/air/application/22.0" rel="nofollow">http://ns.adobe.com/air/application/28.0</a>“&gt;</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_custom_heading text=”Setup Moonshine IDE ™ with Apache Flex SDK” font_container=”tag:h3</td>
+      <td>text_align:left” use_theme_fonts=”yes”][vc_column_text el_class=”text-size-18″]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Start Moonshine</li>
+  <li>Setup <em>Apache Flex<sup>®</sup> SDK</em> in <strong>**Settings</strong>**</li>
+  <li>In Moonshine choose <em>**File -&gt; Settings -&gt; Default SDK<br />
+**</em></li>
+</ul>
+
+<p><img class="alignnone size-full wp-image-452" src="http://moonshine-ide.com/wp-content/uploads/default_sdk.png" alt="Default SDK" width="1020" height="250" srcset="http://moonshine-ide.com/wp-content/uploads/default_sdk.png 1020w, http://moonshine-ide.com/wp-content/uploads/default_sdk-300x74.png 300w" sizes="(max-width: 1020px) 100vw, 1020px" /></p>
+
+<ul>
+  <li><em>If you are using Moonshine that bundled with different SDKs, then you can use any of them to set default Flex SDK to Moonshine, or even you can downloaded Apache Flex<sup>®</sup> SDK with Adobe AIR SDK at <a href="http://flex.apache.org/installer.html">http://flex.apache.org/installer.html</a></em></li>
+  <li>If you are using <em><strong>OSX El Capitan</strong></em> or higher, make sure your any downloaded SDK’s location is <strong>~/Downloads</strong> folder. By many restrictions applied to El Capitan, a sandbox app can execute/use SDK stuff only if it’s in user’s Downloads folder</li>
+  <li>(OSX) If you have setup Flex SDKs downloaded by Moonshine’s helper application <em><strong>App Store Helper</strong></em> then you should probably see Moonshine’s default SDK.</li>
+  <li>You can also set your own SDK as <em>default</em>, click on <em><strong>Change</strong></em> link inside _Default Apache Flex<sup>® </sup>Apache Royale<sup>® </sup>or Feathers SDK__ _section, this will open a popup named “Select Flex SDK” consisting of available/added SDK entries</li>
+  <li>To use any SDK from the above entry, simply double-click on it, and it’ll updated to _Default Apache Flex<sup>® </sup>Apache Royale<sup>® </sup>or Feathers SDK _section, or you can add your own by clicking on plus button in “Select Flex SDK” popup and complete the “Define a SDK Path” form to add your new SDK to Moonshine</li>
+  <li>When done, click on <em><strong>Save</strong></em> button in <em>Default SDK</em> section</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_custom_heading text=”Setup Moonshine Sources” font_container=”tag:h3</td>
+      <td>text_align:left” use_theme_fonts=”yes”][vc_column_text el_class=”text-size-18″]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Checkout Moonshine sources from our <a href="https://github.com/prominic/Moonshine-IDE">GitHub repository</a>.</li>
+  <li>Moonshine sources will have three different Flex project folders:**<br />
+** **<br />
+— MoonshineSharedCore<strong><em>(library project shared in desktop and web IDE)</em><br />
+**— MoonshineDESKTOPevolved</strong><em>(desktop IDE’s gateway project)</em><br />
+<strong>— MoonshineWEB</strong>_(web IDE’s gateway project)<br />
+_<br />
+_(Note: this setup instructions demonstrated with desktop version’s IDE source)<br />
+_</li>
+  <li>
+    <p>Import Moonshine’s desktop version source in running Moonshine IDE ™, you can do so by any of the following ways:<br />
+**<br />
+—** Choose by <em><strong>Project -&gt; Open/Import Flex Project</strong></em><br />
+<strong>—</strong> Click on <em><strong>Open Apache Flex/Royale Project</strong></em> link in IDE’s splash screen. In opening folder browser dialogue navigate to the checkout sources, and select <strong>MoonshineDESKTOPevolved </strong>folder to open</p>
+  </li>
+  <li>Moonshine should import you now desktop version’s source in the IDE</li>
+</ul>
+
+<p><img class="alignnone size-full wp-image-455" src="http://moonshine-ide.com/wp-content/uploads/moonshine_sources.png" alt="Moonshine IDE sources" width="636" height="507" srcset="http://moonshine-ide.com/wp-content/uploads/moonshine_sources.png 636w, http://moonshine-ide.com/wp-content/uploads/moonshine_sources-300x239.png 300w" sizes="(max-width: 636px) 100vw, 636px" /></p>
+
+<ul>
+  <li>Now we now need to setup it’s library project (<strong>MoonshineSharedCore</strong>), and configure it’s settings. to do this right-click on project root node in workspace (right-hand tree panel) and choose <em><strong>Settings</strong></em></li>
+  <li>You should now open with <strong>MoonshineDESKTOPevolved </strong>project’s settings window</li>
+</ul>
+
+<p><img class="alignnone size-full wp-image-420" src="http://moonshine-ide.com/wp-content/uploads/Moonshine-Sources-settings.png" alt="Moonshine Sources settings" width="976" height="580" srcset="http://moonshine-ide.com/wp-content/uploads/Moonshine-Sources-settings.png 976w, http://moonshine-ide.com/wp-content/uploads/Moonshine-Sources-settings-300x178.png 300w" sizes="(max-width: 976px) 100vw, 976px" /></p>
+
+<ul>
+  <li>Make sure the project’s <em><strong>Build Options -&gt; Additional Compiler Options</strong></em> read this:<br />
+<span style="color: #0000ff;"><span style="color: #0000ff;"><em><br /> -locale en_US -allow-source-path-overlap=true -swf-version 39 -define+=CONFIG::OSX,false +configname=air<br /> </em></span></span><span style="color: #000000;"><br /> (Note: <em>-swf-version 39</em> is the compiler argument for Adobe AIR 28.0. This may needs to vary per your SDK version usage. Please read your Adobe AIR SDK version’s release notes online to know more)</span></li>
+  <li>To setup library projects, SWC, other sources etc. go to <em>Paths</em> section in project’s settings window</li>
+</ul>
+
+<p><img class="alignnone size-full wp-image-421" src="http://moonshine-ide.com/wp-content/uploads/sources_settings_pt1.png" alt="Moonshine Sources settings" width="1080" height="367" srcset="http://moonshine-ide.com/wp-content/uploads/sources_settings_pt1.png 1080w, http://moonshine-ide.com/wp-content/uploads/sources_settings_pt1-300x102.png 300w" sizes="(max-width: 1080px) 100vw, 1080px" /></p>
+
+<p><img class="alignnone size-full wp-image-422" src="http://moonshine-ide.com/wp-content/uploads/sources_settings_pt2.png" alt="Moonshine Sources settings" width="1078" height="475" srcset="http://moonshine-ide.com/wp-content/uploads/sources_settings_pt2.png 1078w, http://moonshine-ide.com/wp-content/uploads/sources_settings_pt2-300x132.png 300w" sizes="(max-width: 1078px) 100vw, 1078px" /><br />
+— <strong>Class Paths</strong>: Used to connect linked projects’ source paths. Make sure <em>Class Paths</em> are correct per your directory structure<br />
+— <strong>Resource Folders</strong>: Link up this path: <em>MoonshineSharedCore/src/elements<br />
+_ — <strong>Libraries</strong>: Link up the .SWC file from this path: <strong>MoonshineDESKTOPevolved/libs/ApacheFlexSDKInstallerLib.swc</strong><br />
+You can add entry to the sections by </em><strong>Click to Add</strong><em> button or modify paths by </em><strong>Browse Dir</strong><em> button. Make sure <strong>Class Paths</strong> sections points to the _MoonshineSharedCore</em> sources per your local file system correctly. <strong>Save</strong> settings.</p>
+
+<ul>
+  <li>Moonshine uses one Adobe Native Extension for OSX version only (and specifically for it’s PKG installer). This need not to be added/included during an IDE run. Having the reference in it’s application descriptor file may also creates problem during a run from an IDE. Thus, you wants to remove the reference of the Native Extension from Moonshine application descriptor file. To do this, open <em><strong>MoonshineDESKTOPevolved/src/MoonshineDESKTOP-app.xml</strong></em>, and remove the following line if exists:<br />
+<span style="color: #0000ff;"><em><br /> <extensions><extensionID>karar.santanu.SecurityScopeBookmark</extensionID></extensions></em></span></li>
+  <li>To test a <strong>Flex</strong> project choose <em><strong>Project -&gt; Build &amp; Run</strong></em>, to test a <strong>Royale</strong> project you either can choose <em><strong>Project -&gt; Build &amp; Run </strong></em>(produce .SWF) or <em><strong>Project -&gt; Build &amp; Run as JavaScript</strong></em> (produce HTML/JavaScript); if all things are works you should see compilation output in bottom <em>Console</em> view in Moonshine IDE ™ and an AIR window starts running Moonshine IDE’s instance, eventually. (<em><strong>Note</strong></em>: To run a <em><strong>Flex</strong></em> project you needs your running/default-sdk to be a Flex SDK, to run a <em><strong>Royale</strong></em> project you needs to set your running/default-sdk to a FlexJS SDK. You can toggle between SDKs by the steps as discussed in <strong>**Setup Moonshine IDE </strong><strong>™</strong> with Apache Flex SDK** section)</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][vc_custom_heading text=”ANT Build” font_container=”tag:h3</td>
+      <td>text_align:left” use_theme_fonts=”yes”][vc_column_text el_class=”text-size-18″]</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Starting an ANT build requires <a href="https://ant.apache.org/">Apache Ant<sup>®</sup></a> installed in your system and setup as environment variable (ensure ANT version meets minimum requirement of 1.9.2)</li>
+  <li>Moonshine sources supplies with it’s Ant build scripts and configured. Upon completion, the process will output desktop installer files for Windows and MacOS. You can immediately start an Ant build process if you already setup Ant in your system; to start an Ant build process we need to locate the Ant build script file (<strong>build.xml</strong>) prior to run the process. Moonshine supplies Ant build script file in it’s project’s <strong>build </strong>folder.</li>
+  <li>If you have already ANT_HOME setup then you can immediately build your script file by choosing <em><strong>Ant -&gt; Configure</strong></em> from top menu, in opening file browser dialogue navigate to your Flex project’s folder and select <em>build/build.xml</em> file; click <em><strong>Open</strong></em> in browser dialogue; lastly <em><strong>Ant -&gt; Build</strong></em>. Ant build should produce .SWF and it’s HTML wrapper file set</li>
+  <li>If you did not have ANT_HOME setup already, choose <em><strong>Ant -&gt; Build</strong></em>. This will open following window where you can set your Ant binary location and optionally set path to your build.xml file<br />
+<img class="alignnone size-full wp-image-257" src="http://moonshine-ide.com/wp-content/uploads/antConfig.png" alt="antconfig" width="745" height="352" srcset="http://moonshine-ide.com/wp-content/uploads/antConfig.png 745w, http://moonshine-ide.com/wp-content/uploads/antConfig-300x142.png 300w" sizes="(max-width: 745px) 100vw, 745px" /></li>
+  <li>Upon successful completion of the process, installer files can be located at <strong>DEPLOY</strong> folder inside <strong>build</strong> folder</li>
+  <li>You can edit <strong>build/ApplicationProperties.xml</strong> to build optional Flex SDK path, build certificate paths etc. If no certificate supplies, ANT script will create a self-signed certificate for the build process automatically</li>
+</ul>
+
+<p>[/vc_column_text][/vc_column][/vc_row]</p>
