@@ -1,3 +1,5 @@
 url: http://moonshine-ide.com
 name: Moonshine IDE
 description: 'Cloud &amp; Desktop based IDE for AS3 | Apache Flex® | Apache Royale®| Feathers | PrimeFaces'
+
+theme: jekyll-theme-minimal
